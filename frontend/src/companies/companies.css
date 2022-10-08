@@ -1,0 +1,14 @@
+.companyList {
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

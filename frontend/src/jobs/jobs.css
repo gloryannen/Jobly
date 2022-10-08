@@ -1,0 +1,28 @@
+.jobList {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.jobCard {
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+.leftAlign {
+  float: left;
+  margin: 10px;
+}
+
+.applyButton {
+  position: relative;
+  height: 100%;
+}
+
+.applyButton button {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  color: white;
+  background-color: red;
+}
